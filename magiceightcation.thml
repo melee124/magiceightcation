@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Where Should I Go?</title>
+  </head>
+  <body>
+    <h1>Where should you spend your next vacation?</h1>
+    <p>Do you, like many, have trouble making decisions?  Then let a fake internet eight ball make major life decisions for you!</p>
+    <p>Introducing the Magiceightcation!  In 5 simple questions, it will decide where you fly!</p>
+    <p>Just answer a few simple questions, hit the MAGICEIGHTCATION button, and away you go!</p>
+    <div class="container">
+      <form>
+        <h2>What Do You Want to See?</h2>
+        <select class="form-control" id="location">
+          <option>Mountains</option>
+          <option>City</option>
+          <option>Ocean</option>
+          <option>Desert</option>
+        </select>
+        <div class="radio">
+          <label>
+            <input type="radio" name="temperature" value="hot as the sun" checked>
+            Hot as the Sun
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+          <input type="radio" name="flavor" value="antarctic">
+          Antarctic
+        </label>
+        </div>
+        <div class="radio">
+          <label>
+          <input type="radio" name="flavor" value="average">
+          Average
+          </label>
+        </div>
+        <p>Do you like to be far from home?</p>
+        <select id="distance">
+          <option value="yes">Yes</option>
+          <option value="no">No</option>
+        </select>
+        <p>Do you like to be far from home?</p>
+        <select id="swim">
+          <option value="yes">Yes</option>
+          <option value="no">No</option>
+          </select>
+        <p>Which shoes do you want to wear?  Heels, snowboots, or flip flops?</p>
+        <div class="form-group">
+            <label for="shoes">Shoes?</label>
+            <input id="shoes" class="form-control" type="text">
+          </div>
+          <button type="submit" class="btn">Magiceightcation Me!</button>
+      </form>
+
+
+      <div id="under-21">
+        <h1>Sorry, we can't serve you.</h1>
+
+        <p>It's illegal in the US. Try Mexico or Europe.</p>
+      </div>
+    </div>
+  </body>
+</html>
