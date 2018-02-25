@@ -1,11 +1,7 @@
-#drinks, #under-21 {
+#antarctica, #tahiti, #jersey-city, #try-again, #no-swim {
   display: none;
 }
 
 .btn {
   display: block;
-}
-
-#quote {
-  display: none;
 }
