@@ -1,19 +1,16 @@
 $(document).ready(function() {
-  $("form#userheight").submit(function(event) {
-  var location = $("location").val();
-  var temperature = $("input:radio[name=temperature]:checked").val());
-  var distance = $("distance").val());
-  var swim = $("swim").val();
-  var shoes = $("input#shoes").val();
-
-  if (swim === 'no') {
+  $("form#travel").submit(function(event) {
+  var temperature = parseInt($("input#temperature").val());
+  var distance = parseInt($("input#distance").val());
+  var swim = parseInt($("#swim").val());
+  var location = parseInt($("#location").val());
+  var shoes = parseInt($("#shoes").val());
+  if (temperature < 50 && distance < 100) {
+    $('#cold-weather').show();
+  } else if (swim > 3 && location === 2) {
+    $('#swim-yes').show();
+  } else {
     $('#no-swim').show();
-  } else if (temperature === 'hot' && shoes === 'sandals') {
-    $('#tahiti').show();
-  } else if (shoes === 'snowboots' && location === 'desert'){
-    $('antarctica').show();
-    else if (shoes === 'heels' && location === 'city' && )
-    $('#short-height').show();
   }
     event.preventDefault();
   });

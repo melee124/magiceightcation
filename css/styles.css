@@ -1,7 +1,8 @@
-#antarctica, #tahiti, #jersey-city, #try-again, #no-swim {
+#cold-weather, #swim-yes, #no-swim, #jersey-city {
   display: none;
 }
 
-.btn {
-  display: block;
+img {
+  height: 200px;
+  width: 200px;
 }
