@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  $("form#travel").submit(function(event) {
+  $("form#travel").submit(function(event) {  
   var temperature = parseInt($("input#temperature").val());
   var distance = parseInt($("input#distance").val());
   var swim = parseInt($("#swim").val());

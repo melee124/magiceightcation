@@ -1,8 +1,31 @@
 #cold-weather, #swim-yes, #no-swim, #jersey-city {
   display: none;
+  border-style: dashed;
+  border-color: orange;
+  border-width: thin;
+}
+
+#travel {
+  border-style: double;
+  border-color: black;
+  border-width: thick;
 }
 
 img {
   height: 200px;
   width: 200px;
+}
+
+h1 {
+  font-family: sans-serif;
+  background-color: blue
+}
+
+p {
+  font-family:fantasy;
+  background-color: green
+}
+
+body {
+  background: linear-gradient(red, pink);
 }
