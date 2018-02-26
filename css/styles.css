@@ -14,18 +14,39 @@
 img {
   height: 200px;
   width: 200px;
+  border-style: groove;
+  border-width:thick;
+  border-color:#3b2ba5;
 }
 
 h1 {
   font-family: sans-serif;
-  background-color: blue
+  background-color: blue;
+  text-align: center;
 }
 
 p {
   font-family:fantasy;
+  font-size: large;
   background-color: green
 }
 
 body {
-  background: linear-gradient(red, pink);
+  background: linear-gradient(#f76f42, #f2d5cb);
+}
+
+button {
+  background-color: #b7f943;
+  font-family: georgia, serif;
+}
+
+
+.eight {
+  text-align: center;
+
+}
+
+#travel {
+  text-align: center;
+  color: #040b21
 }
