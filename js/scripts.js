@@ -1,6 +1,6 @@
 $(document).ready(function() {
   $("form#travel").submit(function(event) {
-    onSubmit('#travel').hide;
+
   var temperature = parseInt($("input#temperature").val());
   var distance = parseInt($("input#distance").val());
   var swim = parseInt($("#swim").val());

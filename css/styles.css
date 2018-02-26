@@ -23,6 +23,7 @@ h1 {
   font-family: sans-serif;
   background-color: blue;
   text-align: center;
+  color: #0c0c0c
 }
 
 p {
@@ -49,4 +50,19 @@ button {
 #travel {
   text-align: center;
   color: #040b21
+}
+
+#no-swim {
+text-align: center;
+background-color: brown;
+}
+
+#cold-weather {
+  text-align: center;
+  background-color: #a9c0e5
+}
+
+#swim-yes {
+  text-align: center;
+  background: linear-gradient(#e5b949, #aee9f2)
 }
